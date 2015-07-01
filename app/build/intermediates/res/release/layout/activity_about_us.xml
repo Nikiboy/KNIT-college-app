@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.knit.AboutUs">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9e5b5f"
+        android:padding="3dp"
+        android:text="Transport details">
+
+
+        <RelativeLayout
+            android:id="@+id/upper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fffaffff">
+
+            <TextView
+                android:id="@+id/AboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="About Us"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ff74b3e8"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/medtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AboutUs"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:autoText="false"
+                android:background="#fffff7f1"
+                android:singleLine="false"
+                android:text="Lil Bit of History"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffb103" />
+
+            <TextView
+                android:id="@+id/medtxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="KAMLA NEHRU INSTITUTE OF TECHNOLOGY (KNIT) SULTANPUR, was established in 1979 with a mission to advanced knowledge and educate students in Engineering &amp; Technology and other areas which will best serve the nation."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+
+            <ImageView
+                android:id="@+id/bus"
+                android:layout_width="wrap_content"
+                android:layout_height="141dp"
+                android:layout_below="@+id/medtxt2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/knitimg" />
+
+            <TextView
+                android:id="@+id/medtxt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bus"
+                android:layout_marginTop="11dp"
+                android:autoText="false"
+                android:background="#fffff7f1"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="Contact Us"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffb103" />
+
+            <TextView
+                android:id="@+id/medtxt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt4"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="Thank You for exploring KNIT, Sultanpur. We would love to answer any questions you have, and be of service in any way we can. Please send us a note, give us a phone call, or email us directly at "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="contacts@knit.ac.in"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/nitish/Desktop/P/KNIT/app/src/main/res/layout/activity_about_us.xml -->

@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.knit.AboutUs">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9e5b5f"
+        android:padding="3dp"
+        android:text="Transport details">
+
+
+        <RelativeLayout
+            android:id="@+id/upper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fffaffff">
+
+            <TextView
+                android:id="@+id/AboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Laboratories"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ff74b3e8"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/medtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AboutUs"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:autoText="false"
+                android:background="#fffff7f1"
+                android:singleLine="false"
+                android:text="Engineering is incomplete without doing what is being taught in the classrooms"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffb103" />
+
+            <TextView
+                android:id="@+id/medtxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="21dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="Our well equipped labs enable each student to write code, mend wires, impose designs, and do experiment with theoretical concepts. "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+
+            <TextView
+                android:id="@+id/medtxt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medtxt2"
+                android:layout_marginTop="21dp"
+                android:autoText="false"
+                android:background="#fffff7f1"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="Some of the labs available in the college are"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffb103"
+                android:layout_marginBottom="21dp" />
+
+            <TextView
+                android:id="@+id/medtxt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt4"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* PHYSICS"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* CHEMISTRY"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt6"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* COMPUTER CENTER"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt7"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* COMPUTER AIDED SYSTEM DESIGN"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt8"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* MICROPROCESSORS"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt9"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* MATLAB"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt10"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* ELECTRONICS WORKSHOP"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+            <TextView
+                android:id="@+id/medtxt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt11"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="* COMPUTER GRAPHICS"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+
+            <TextView
+                android:id="@+id/medtxt13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt12"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="etc."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/nitish/Desktop/P/KNIT/app/src/main/res/layout/activity_laboratory.xml -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee id = "11232">
+        <name>Nitish Tripathi</name>
+        <department>CSE</department>
+        <type>KNIT</type>      
+        <email>nitishtripathi123@gmail.com<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></email>
+        <address>
+            <line1>1201 Main Rd</line1>
+            <city>Peoria</city>
+            <state>Illinois</state>
+            <zipcode>61606</zipcode>
+        </address>
+    </employee>
+     
+    <employee id = "11227">
+        <name>LNS</name>
+        <department>CSE</department>
+        <type>KNITt</type>       
+        <email>ram@tot.com<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></email>
+        <address>
+            <line1>163 Main Street</line1>
+            <city>Chennai</city>
+            <state>TN</state>
+            <zipcode>600001</zipcode>
+        </address>
+    </employee>
+     
+    <employee id = "11212">
+        <name>Irfan Ahmed</name>
+        <department>IT</department>
+        <type>KNIT</type>      
+        <email>timmy@tot.com<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></email>
+        <address>
+            <line1>2163 1st Avenue</line1>
+            <city>Chicago</city>
+            <state>Illinois</state>
+            <zipcode>60631</zipcode>
+        </address>
+    </employee>
+    <!--  -->
+</employees>

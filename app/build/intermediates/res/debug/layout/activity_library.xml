@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransportActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9e5b5f"
+        android:padding="3dp"
+        android:text="Transport details">
+
+
+        <RelativeLayout
+            android:id="@+id/upper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fffaffff">
+
+            <TextView
+                android:id="@+id/Transportation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Library"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ff74b3e8"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/medtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Transportation"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:autoText="false"
+                android:background="#fffff7f1"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="A university is just a group of buildings gatheredd around a library"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffb103" />
+
+            <TextView
+                android:id="@+id/medtxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/medtxt"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="The vast reservoir of knowledge at KNIT Library is a source of constant value addition for the knowlege seekers."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+
+            <ImageView
+                android:id="@+id/library"
+                android:layout_width="wrap_content"
+                android:layout_height="121dp"
+                android:layout_below="@+id/medtxt2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:src="@drawable/library" />
+
+
+            <TextView
+                android:id="@+id/medtxt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/library"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="21dp"
+                android:shadowColor="#ffffbe36"
+                android:singleLine="false"
+                android:text="KNIT library has a rich collection of old books and journals that serve as a mental stimuli and offers the latest material on technological upgradations."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff555b8a" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/nitish/Desktop/P/KNIT/app/src/main/res/layout/activity_library.xml -->

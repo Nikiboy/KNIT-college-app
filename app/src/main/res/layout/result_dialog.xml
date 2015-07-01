@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5555ff"
+    android:paddingTop="30dp"
+    android:padding="10dp">
+
+    <EditText
+        android:background="#55ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textSize="28sp"
+        android:ems="10"
+        android:id="@+id/rollno"
+        android:textColor="#aaaaaa"
+        android:layout_gravity="center_horizontal"
+        android:text="Roll Number ..." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show Result"
+        android:textColor="#ffffff"
+        android:id="@+id/resultButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

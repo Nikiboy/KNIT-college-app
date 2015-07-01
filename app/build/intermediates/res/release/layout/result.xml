@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9e0b0f"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Result"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/weather_border"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/resultText"
+        android:layout_marginBottom="10dp"
+        android:background="#CCCCCC" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#D54C4E"
+        android:layout_below="@+id/weather_border"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp">
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:gravity="left"
+            android:text="• B.Tech/MCA ODD Semester Examination 2014-15"
+            android:id="@+id/button1"
+            android:textColor="#FFFFFF"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:gravity="left"
+            android:text="• M.Tech(Part Time) 2nd Semester 2013-14"
+            android:id="@+id/button2"
+            android:textColor="#FFFFFF"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:gravity="left"
+            android:text="• B. Tech./ MCA 2nd Year result (2013-14)"
+            android:id="@+id/button3"
+            android:onClick="onClick"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:background="#55ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:padding="5dp"
+            android:ems="10"
+            android:selectAllOnFocus="true"
+            android:id="@+id/rollno"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"
+            android:text="Roll Number ..." />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Show Result"
+            android:textColor="#ffffff"
+            android:id="@+id/resultButton"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+<!--
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" /> --><!-- From: file:/C:/Users/nitish/Desktop/P/KNIT/app/src/main/res/layout/result.xml -->

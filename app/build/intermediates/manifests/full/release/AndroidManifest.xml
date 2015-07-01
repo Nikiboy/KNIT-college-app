@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.knit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="package.name.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="package.name.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.knit.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.knit.ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name="com.knit.WeatherActivity"
+            android:label="@string/title_activity_weather" >
+        </activity>
+        <activity
+            android:name="com.knit.DOMParserActivity"
+            android:label="@string/title_activity_result_activity2" >
+        </activity>
+        <activity
+            android:name="com.knit.FeedbackActivity"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.knit.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.knit.Transportation"
+            android:label="@string/title_activity_transport" >
+        </activity>
+        <activity
+            android:name="com.knit.Soon"
+            android:label="@string/title_activity_soon" >
+        </activity>
+        <activity
+            android:name="com.knit.MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.knit.ContactAcitivity2"
+            android:label="@string/title_activity_contact_acitivity2" >
+        </activity>
+        <activity
+            android:name="com.knit.ContactActivity2"
+            android:label="@string/title_activity_contact_activity2" >
+        </activity>
+        <activity
+            android:name="com.knit.RNO_Webview"
+            android:label="@string/title_activity_rno" >
+        </activity>
+        <activity
+            android:name="com.knit.Photos"
+            android:label="@string/title_activity_photos" >
+        </activity>
+        <activity
+            android:name="com.knit.NewsEvents"
+            android:label="@string/title_activity_news_events" >
+        </activity>
+        <activity
+            android:name="com.knit.AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.knit.Campus"
+            android:label="@string/title_activity_campus" >
+        </activity>
+        <activity
+            android:name="com.knit.Library"
+            android:label="@string/title_activity_library" >
+        </activity>
+        <activity
+            android:name="com.knit.Laboratory"
+            android:label="@string/title_activity_laboratory" >
+        </activity>
+        <activity
+            android:name="com.knit.OtherActivites"
+            android:label="@string/title_activity_other_activites" >
+        </activity>
+    </application>
+
+</manifest>
